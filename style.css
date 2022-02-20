@@ -28,7 +28,7 @@ body {
   place-content: center;
   gap: 3rem;
   height: var(--container-height);
-  border: 4px solid var(--border-color);
+  border: 8px solid var(--border-color);
   text-align: center;
   padding: 1rem;
 }
