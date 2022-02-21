@@ -6,6 +6,7 @@
 :root {
   --black: #1f2933;
   --gray: #616e7c;
+  --dark-gray: #323f4b;
   --light-blue: #5ed0fa;
   --blue: #2bb0ed;
   --dark-blue: #035388;
@@ -87,6 +88,11 @@ body {
   --bg-color: var(--dark-pink);
 }
 
+.anchor-home {
+  --border-color: var(--gray);
+  --bg-color: var(--dark-gray);
+}
+
 .anchor-button {
   text-decoration: none;
   display: grid;
@@ -99,14 +105,4 @@ body {
 
 .anchor-button:hover {
   background-color: var(--bg-color);
-}
-
-.gohome {
-  justify-self: center;
-  width: fit-content;
-  color: var(--white);
-}
-
-.gohome:hover {
-  color: var(--gohome-color);
 }
