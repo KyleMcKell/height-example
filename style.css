@@ -17,6 +17,7 @@
   --dark-pink: #620042;
   --cyan: #2cb1bc;
   --white: #fbfcfe;
+  --font-size: 2rem;
 }
 
 @media (prefers-color-scheme: light) {
@@ -58,8 +59,14 @@ body {
   background-color: var(--background);
   color: var(--text);
   font-family: sans-serif;
-  font-weight: bold;
-  font-size: 2rem;
+  font-weight: 700;
+  font-size: var(--font-size);
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 1.75rem;
+  }
 }
 
 .container {
