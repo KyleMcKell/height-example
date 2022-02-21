@@ -90,7 +90,7 @@ body {
 
 .other-child {
   /* height for other child on the page */
-  --container-height: 15%;
+  --container-height: 25%;
 
   /* not the page, but defines the border */
   --page-color: var(--gray);
@@ -99,7 +99,15 @@ body {
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  align-items: center;
+  gap: clamp(16px, 8px + 4vw, 64px);
+}
+
+@media (max-width: 400px) {
+  .button-container {
+    flex-direction: column;
+    gap: 16px;
+  }
 }
 
 .anchor-100 {
