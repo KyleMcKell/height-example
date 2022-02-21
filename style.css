@@ -90,7 +90,7 @@ body {
 
 .other-child {
   /* height for other child on the page */
-  --container-height: 25%;
+  --container-height: 30%;
 
   /* not the page, but defines the border */
   --page-color: var(--gray);
