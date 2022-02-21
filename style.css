@@ -48,7 +48,7 @@ body {
   padding: 1rem;
 }
 
-.container-100 {
+.container-percent {
   /* setting our height to 100% */
   --container-height: 100%;
 
