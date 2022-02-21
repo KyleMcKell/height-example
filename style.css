@@ -15,6 +15,7 @@
   --light-pink: #ffb8d2;
   --pink: #da127d;
   --dark-pink: #620042;
+  --cyan: #2cb1bc;
   --white: #fbfcfe;
 }
 
@@ -91,10 +92,14 @@ body {
 .other-child {
   /* height for other child on the page */
   height: revert;
-  padding: 4rem 1rem;
+  padding: 4rem 1.2rem;
 
   /* not the page, but defines the border */
   --page-color: var(--gray);
+}
+
+.home-child {
+  --page-color: var(--cyan);
 }
 
 .button-container {
