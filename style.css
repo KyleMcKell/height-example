@@ -81,6 +81,8 @@ body {
 }
 
 .gohome {
+  justify-self: center;
+  width: fit-content;
   color: var(--white);
 }
 
