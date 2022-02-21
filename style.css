@@ -106,3 +106,13 @@ body {
 .anchor-button:hover {
   background-color: var(--bg-color);
 }
+
+.self-link {
+  justify-self: center;
+  width: fit-content;
+  color: var(--white);
+}
+
+.self-link:hover {
+  color: var(--blue);
+}
