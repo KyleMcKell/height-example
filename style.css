@@ -9,10 +9,12 @@ body {
 }
 
 body {
-  --black: #171f26;
+  --black: #1f2933;
   --gray: #616e7c;
+  --light-blue: #5ed0fa;
   --blue: #2bb0ed;
   --dark-blue: #035388;
+  --light-pink: #f364a2;
   --pink: #da127d;
   --dark-pink: #620042;
   --white: #fbfcfe;
@@ -38,11 +40,13 @@ body {
 
 .container-100 {
   --border-color: var(--blue);
+  --gohome-color: var(--light-blue);
   --container-height: 100%;
 }
 
 .container-vh {
   --border-color: var(--pink);
+  --gohome-color: var(--light-pink);
   --container-height: 100vh;
 }
 
@@ -56,28 +60,28 @@ body {
   justify-content: space-around;
 }
 
-.anchor-button {
+.anchor-100 {
   --color: var(--blue);
   --bg-color: var(--dark-blue);
+}
+
+.anchor-vh {
+  --color: var(--pink);
+  --bg-color: var(--dark-pink);
+}
+
+.anchor-button {
+  text-decoration: none;
+  color: var(--white);
   display: grid;
   place-content: center;
   padding: 1rem;
-  text-decoration: none;
-  color: var(--white);
-  border: 4px solid var(--color);
   border-radius: 8px;
+  border: 4px solid var(--color);
 }
 
 .anchor-button:hover {
   background-color: var(--bg-color);
-}
-
-.anchor-vh.anchor-button {
-  --color: var(--pink);
-}
-
-.anchor-vh.anchor-button:hover {
-  --bg-color: var(--dark-pink);
 }
 
 .gohome {
@@ -87,5 +91,5 @@ body {
 }
 
 .gohome:hover {
-  color: var(--border-color);
+  color: var(--gohome-color);
 }
