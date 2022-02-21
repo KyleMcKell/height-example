@@ -4,4 +4,4 @@ Quick and easy examples of how to set a page that has a height of the entire pag
 
 Comparing the difference between using `height: 100%` and `height: 100vh`.
 
-Posted on twitter [here](https://twitter.com/KyleMcKell/status/1495595624217321473).
+Posted on twitter [here](https://twitter.com/KyleMcKell/status/1495595624217321473)
